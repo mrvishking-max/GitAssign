@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishwa S - profile</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    color:rgb(255, 255, 255);
+    text-align:center;
+}
+
+/* Background Video */
+video{
+    position:fixed;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:-1;
+    top:0;
+    left:0;
+}
+
+/* Heading Animation */
+h1{
+    animation: fadeIn 2s ease;
+}
+
+/* Image Style */
+img{
+    border-radius:50%;
+    display:block;
+    margin:auto;
+    transition:0.5s;
+}
+
+img:hover{
+    transform:scale(1.1);
+}
+
+/* Section Animation */
+section{
+    animation: slideUp 1.5s ease;
+}
+
+/* Table Style */
+table,th,td{
+    border:2px solid white;
+    border-collapse:collapse;
+    padding:10px;
+}
+
+table{
+    margin:auto;
+}
+
+/* Animation */
+@keyframes fadeIn{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+@keyframes slideUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<video src="study.mp4" autoplay loop muted></video>
+
+<h1>Hello, I am VISHWA S</h1>
+
+<img src="vishwa.png" width="250" height="250">
+
+<section>
+<h2>About Me</h2>
+<p>
+<strong>
+CSE student passionate about technology and continuous learning.
+Skilled in Java, C, SQL, Python and Data Structures.
+Interested in software development and problem solving while improving my programming skills.
+</strong>
+</p>
+</section>
+
+<section>
+<h2>Skills</h2>
+<ul>
+<li>Java</li>
+<li>C Programming</li>
+<li>SQL</li>
+<li>Basics Of Python</li>
+</ul>
+</section>
+
+<section>
+<h2>Projects</h2>
+
+<table>
+
+<tr>
+<th>Project Name</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>Interview Preparation Platform</td>
+<td>A Firebase based platform that generates roadmap, mock tests, progress tracking dashboard and communication feedback.</td>
+</tr>
+
+<tr>
+<td>Truth and Dare Game</td>
+<td>A simple game developed using programming logic where players roll dice and move according to game rules.</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+<h2>Contact</h2>
+
+<p>Email : vishwa.23cse@npsbcet.edu.in</p>
+<p>Phone : +91 9003587149</p>
+<p>Github : https://github.com/mrvishking-max</p>
+<p>LinkedIn : https://www.linkedin.com/in/vishwa-s-666302315/</p>
+
+</section>
+
+</body>
+</html>
